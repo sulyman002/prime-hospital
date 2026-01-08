@@ -2,17 +2,17 @@
 
 const page = () => {
   return (
-    <section className="min-h-screen bg-background flex justify-center mx-auto container ">
-      <div className="flex gap-16 items-center">
-        <div className="flex flex-col gap-16">
+    <section className="min-h-screen bg-red-300 max-w-7xl pt-40">
+      <div className="flex gap-36 items-center w-full px-16">
+        <div className="flex flex-col gap-16 flex-1">
           <div className="flex flex-col gap-2">
-            <h2 className="text-primary font-bold text-2xl">Welcome</h2>
+            <h2 className="text-primary font-bold text-5xl font-800">Welcome</h2>
             <p className="text-blue">Login to your account</p>
 
           </div>
           <button className="button">New here? Setup your practice</button>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col flex-1">
           <div className="flex items-center gap-3">
             {/* key */}
             <div className="flex items-center justify-center p-1 bg-[#DFE8FC]">
@@ -22,7 +22,7 @@ const page = () => {
               Login
             </p>
           </div>
-          <hr className="h-1 bg-[#E6E8EC] w-full" />
+          <hr className="h-1 bg-[#E6E8EC] w-full border-none" />
 
           <form className="flex flex-col gap-4 w-full">
             <div className="flex flex-col gap-1 w-full">

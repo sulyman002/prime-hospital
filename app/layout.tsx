@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Metrophobic  } from "next/font/google";
 
 import "./globals.css";
 
